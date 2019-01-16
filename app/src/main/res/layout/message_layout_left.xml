@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:cardCornerRadius="10dp">-->
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/show_message"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="1dp"-->
+                <!--android:layout_marginEnd="10dp"-->
+                <!--android:padding="6dp"-->
+                <!--android:text="TextView"-->
+                <!--android:textSize="18sp"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/show_time"-->
+                <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/show_time"-->
+                <!--android:layout_width="36dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginEnd="4dp"-->
+                <!--android:padding="3dp"-->
+                <!--android:text="TextView"-->
+                <!--android:textSize="8sp"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toEndOf="@+id/show_message"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--app:layout_constraintVertical_bias="0.242" />-->
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+    <!--<TextView-->
+        <!--android:id="@+id/lblMsgFrom"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="kfhdjbh"-->
+        <!--android:textColor="@color/colorblack"-->
+        <!--android:textSize="12dp"-->
+        <!--android:textStyle="italic"-->
+        <!--android:visibility="gone" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/lblMsgFrom"-->
+        <!--android:layout_marginRight="-5dp"-->
+        <!--android:src="@drawable/om" />-->
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_left">
+
+        <TextView
+            android:id="@+id/show_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@android:color/darker_gray"
+            android:layout_gravity="bottom|right"
+            android:padding="3dp"
+            android:textSize="9dp"
+            android:textStyle="italic"
+            android:layout_below="@+id/show_message"
+            android:layout_alignRight="@+id/show_message"
+            android:layout_alignEnd="@+id/show_message" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/show_seen"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Seen"-->
+            <!--android:textColor="@android:color/darker_gray"-->
+            <!--android:layout_gravity="top|right"-->
+            <!--android:padding="3dp"-->
+            <!--android:textSize="9dp"-->
+            <!--android:textStyle="italic"-->
+            <!--android:layout_marginLeft="@+id/show_message"-->
+            <!--android:layout_alignRight="@+id/show_message"-->
+            <!--android:layout_alignEnd="@+id/show_message" />-->
+
+
+
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="12dp"
+            android:text="kdfjhgjfhf"
+            android:textColor="@color/colorblack"
+            android:textSize="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="left|center_vertical" />
+
+    </FrameLayout>
+</RelativeLayout>

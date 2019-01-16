@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pie App</string>
+    <string name="need_a_new_account">Need a New Account ?</string>
+    <string name="logout">Logout</string>
+    <string name="all_users">All Users</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="already_have_account">Already Have Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hey_i_m_using_vrajal_s_chat_app">Hey I\'m Using Vrajal\'s Chat App</string>
+</resources>
